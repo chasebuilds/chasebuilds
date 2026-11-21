@@ -34,8 +34,8 @@ Messy spreadsheets, PDFs and customer lists turned into clean files, with every 
 - **[pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel)** · Invoice PDFs to one Excel workbook, with a confidence score on every field. 3,600 of 3,600 fields correct on 400 invoices in 10 layouts.
 - **[excel-cleaner-pro](https://github.com/chasebuilds/excel-cleaner-pro)** · Cleans messy CSV and Excel files and logs every change on an audit sheet. 5,615 of 5,627 fixable errors fixed, 611 of 611 unsafe values flagged.
 - **[data-merger](https://github.com/chasebuilds/data-merger)** · Merges customer lists with different columns into one record per customer. 28,512 rows from 5 files with 0 false merges.
-- **[pdf-table-extractor](https://github.com/chasebuilds/pdf-table-extractor)** · Tables from digital PDFs to clean Excel and CSV, stitched across pages, with a totals check on every table. 38,528 of 38,968 cells exact, 240 of 240 tables found.
-- Plus 11 more in the full list below.
+- **[small-business-county-study](https://github.com/chasebuilds/small-business-county-study)** · Small-business conditions in 31 Eastern Kentucky counties from free Census files, with charts and a written report rebuilt from one command. [Live demo](https://chasebuilds.github.io/small-business-county-study/).
+- Plus 12 more in the full list below.
 
 ### Websites and design
 
@@ -93,13 +93,14 @@ AI that runs on your own computer, so private files never leave it.
 
 <!--ALL-->
 <details>
-<summary><b>All 27 projects</b> (click to open)</summary>
+<summary><b>All 28 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
 | [pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel) | Data cleanup and PDFs | Invoice PDFs to one Excel workbook, with a confidence score on every field | 3,600 of 3,600 fields correct on 400 invoices in 10 layouts |
 | [excel-cleaner-pro](https://github.com/chasebuilds/excel-cleaner-pro) | Data cleanup and PDFs | Cleans messy CSV and Excel files and logs every change on an audit sheet | 5,615 of 5,627 fixable errors fixed, 611 of 611 unsafe values flagged |
 | [data-merger](https://github.com/chasebuilds/data-merger) | Data cleanup and PDFs | Merges customer lists with different columns into one record per customer | 28,512 rows from 5 files with 0 false merges |
+| [small-business-county-study](https://github.com/chasebuilds/small-business-county-study) | Data cleanup and PDFs | Small-business conditions in 31 Eastern Kentucky counties from free Census files, with charts and a written report rebuilt from one command | [Live demo](https://chasebuilds.github.io/small-business-county-study/) |
 | [pdf-table-extractor](https://github.com/chasebuilds/pdf-table-extractor) | Data cleanup and PDFs | Tables from digital PDFs to clean Excel and CSV, stitched across pages, with a totals check on every table | 38,528 of 38,968 cells exact, 240 of 240 tables found |
 | [address-normalizer](https://github.com/chasebuilds/address-normalizer) | Data cleanup and PDFs | Messy US mailing addresses to standardized, split fields, with duplicates grouped | 99.5% of cleaned rows fully right, 100% duplicate precision |
 | [data-quality-checks](https://github.com/chasebuilds/data-quality-checks) | Data cleanup and PDFs | Declarative checks for CSV, Excel and Parquet files, run as DuckDB SQL, with a pass/fail report | 1,784 of 1,800 planted faults caught, 0 false alarms in 220 clean runs |
