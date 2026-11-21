@@ -20,6 +20,9 @@ Each tool is scored against generated test data where the right answer is known,
 | [product-matcher](https://github.com/chasebuilds/product-matcher) | Match products between two lists by GTIN/SKU, units and fuzzy names, with a review sheet | 2,216 of 2,216 automatic matches correct |
 | [json-to-tables](https://github.com/chasebuilds/json-to-tables) | Nested JSON and JSON Lines to tidy related tables in Excel, CSV or SQLite | 426,604 of 426,604 values placed exactly once with the right parent |
 | [lead-list-qa](https://github.com/chasebuilds/lead-list-qa) | Offline checks for B2B contact lists: email and phone format, duplicates, role and free-mail addresses | 1,531 of 1,531 planted faults caught, 0 of 3,469 clean rows flagged |
+| [excel-formula-auditor](https://github.com/chasebuilds/excel-formula-auditor) | Scan Excel workbooks for formula risks: errors, hard-coded numbers, inconsistent formulas, broken links | All 6 planted issue types caught, 0 false flags on 50 clean workbooks |
+| [transaction-categorizer](https://github.com/chasebuilds/transaction-categorizer) | Categorize bank and card transactions with an editable rules file, flag duplicates, monthly summary | 5,100 seeded transactions categorized correctly, 100 of 100 duplicates found |
+| [csv-combine-split](https://github.com/chasebuilds/csv-combine-split) | Combine a folder of CSV and Excel files with aligned columns, or split a big file | 100,000 of 100,000 rows out from 20 mixed files, every column aligned |
 
 All results are on synthetic data. Each repo has a `BENCHMARK.md` with the method and a `LIMITATIONS.md` that says what the tool does not handle.
 
