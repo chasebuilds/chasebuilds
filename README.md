@@ -51,8 +51,9 @@ Web apps, dashboards and browser tools that run on a phone or laptop.
 
 - **[react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard)** · Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export. [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/).
 - **[pc-build-planner](https://github.com/chasebuilds/pc-build-planner)** · Pick a budget and use case, get a PC parts list where every part fits, with the reason for each pick. [Live demo](https://chasebuilds.github.io/pc-build-planner/).
+- **[field-service-pwa](https://github.com/chasebuilds/field-service-pwa)** · Phone app for trades crews: job tickets, checklists, photos, parts, time, customer signature and invoice. Works offline. [Live demo](https://chasebuilds.github.io/field-service-pwa/).
 - **[table-export-extension](https://github.com/chasebuilds/table-export-extension)** · Chrome and Edge extension that exports any table on a web page to CSV or Excel. No data leaves the browser.
-- **[automated-reporting-system](https://github.com/chasebuilds/automated-reporting-system)** · Raw weekly exports to a finished Excel report and HTML dashboard. 876 of 876 KPI values exact, 17 of 18 planted faults caught. [Live demo](https://chasebuilds.github.io/automated-reporting-system/).
+- Plus 1 more in the full list below.
 
 ### APIs and automation
 
@@ -81,7 +82,7 @@ Plain-English checkups of a website's public setup, no hacking involved.
 
 <!--ALL-->
 <details>
-<summary><b>All 25 projects</b> (click to open)</summary>
+<summary><b>All 26 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -104,6 +105,7 @@ Plain-English checkups of a website's public setup, no hacking involved.
 | [motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery) | Websites and design | Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off | [Live demo](https://chasebuilds.github.io/motion-design-gallery/) |
 | [react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard) | Apps and dashboards | Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
 | [pc-build-planner](https://github.com/chasebuilds/pc-build-planner) | Apps and dashboards | Pick a budget and use case, get a PC parts list where every part fits, with the reason for each pick | [Live demo](https://chasebuilds.github.io/pc-build-planner/) |
+| [field-service-pwa](https://github.com/chasebuilds/field-service-pwa) | Apps and dashboards | Phone app for trades crews: job tickets, checklists, photos, parts, time, customer signature and invoice. Works offline | [Live demo](https://chasebuilds.github.io/field-service-pwa/) |
 | [table-export-extension](https://github.com/chasebuilds/table-export-extension) | Apps and dashboards | Chrome and Edge extension that exports any table on a web page to CSV or Excel. No data leaves the browser |  |
 | [automated-reporting-system](https://github.com/chasebuilds/automated-reporting-system) | Apps and dashboards | Raw weekly exports to a finished Excel report and HTML dashboard | 876 of 876 KPI values exact, 17 of 18 planted faults caught. [Live demo](https://chasebuilds.github.io/automated-reporting-system/) |
 | [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api) | APIs and automation | Booking backend for a small business: staff hours, time off, no double-booking, time-zone-correct slots |  |
