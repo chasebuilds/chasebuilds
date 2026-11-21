@@ -1,6 +1,6 @@
 ## Chase Builds
 
-Small Python tools for messy business data: spreadsheets, PDFs, customer lists and weekly reports.
+Small Python tools for messy business data: spreadsheets, PDFs, customer lists and weekly reports. Portfolio site: [chasebuilds.github.io](https://chasebuilds.github.io)
 
 Each tool is scored against generated test data where the right answer is known, and the score is written into its README by a script, not typed by hand. When a tool is not sure, it sends the value to a review sheet instead of guessing.
 
