@@ -15,6 +15,11 @@ Each tool is scored against generated test data where the right answer is known,
 | [data-quality-checks](https://github.com/chasebuilds/data-quality-checks) | Declarative checks for CSV, Excel and Parquet files, compiled to DuckDB SQL, with an HTML and JSON report | 1,784 of 1,800 planted faults caught, 0 false alarms in 220 clean runs |
 | [pdf-table-extractor](https://github.com/chasebuilds/pdf-table-extractor) | Tables from digital PDFs to clean Excel and CSV, stitched across pages, with a totals check on every table | 38,528 of 38,968 cells exact, 240 of 240 tables found |
 | [address-normalizer](https://github.com/chasebuilds/address-normalizer) | Messy US mailing addresses to standardized, split fields, with duplicates grouped | 99.5% of cleaned rows fully right, 100% duplicate precision |
+| [excel-to-sql](https://github.com/chasebuilds/excel-to-sql) | Load CSV and Excel files into SQL with type inference, key detection, upsert and a load report | 2,000 of 2,000 generated columns typed correctly, 500 of 500 bad rows rejected |
+| [spreadsheet-diff](https://github.com/chasebuilds/spreadsheet-diff) | Compare two versions of a CSV or Excel file by key: added, removed and changed rows, cell by cell | 2,803 of 2,803 planted cell edits found in 20,000 rows, 0 false flags |
+| [product-matcher](https://github.com/chasebuilds/product-matcher) | Match products between two lists by GTIN/SKU, units and fuzzy names, with a review sheet | 2,216 of 2,216 automatic matches correct |
+| [json-to-tables](https://github.com/chasebuilds/json-to-tables) | Nested JSON and JSON Lines to tidy related tables in Excel, CSV or SQLite | 426,604 of 426,604 values placed exactly once with the right parent |
+| [lead-list-qa](https://github.com/chasebuilds/lead-list-qa) | Offline checks for B2B contact lists: email and phone format, duplicates, role and free-mail addresses | 1,531 of 1,531 planted faults caught, 0 of 3,469 clean rows flagged |
 
 All results are on synthetic data. Each repo has a `BENCHMARK.md` with the method and a `LIMITATIONS.md` that says what the tool does not handle.
 
