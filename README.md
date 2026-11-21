@@ -13,6 +13,8 @@ Each tool is scored against generated test data where the right answer is known,
 | [business-research-tool](https://github.com/chasebuilds/business-research-tool) | Company names to a research sheet where every fact has a source. Cached, rate-limited, works offline | 99.4% match precision on 300 test companies |
 | [web-data-extractor](https://github.com/chasebuilds/web-data-extractor) | Public catalog pages to a checked spreadsheet, only where robots.txt allows. Async with per-host limits | 360 of 360 field values correct on the test site |
 | [data-quality-checks](https://github.com/chasebuilds/data-quality-checks) | Declarative checks for CSV, Excel and Parquet files, compiled to DuckDB SQL, with an HTML and JSON report | 1,784 of 1,800 planted faults caught, 0 false alarms in 220 clean runs |
+| [pdf-table-extractor](https://github.com/chasebuilds/pdf-table-extractor) | Tables from digital PDFs to clean Excel and CSV, stitched across pages, with a totals check on every table | 38,528 of 38,968 cells exact, 240 of 240 tables found |
+| [address-normalizer](https://github.com/chasebuilds/address-normalizer) | Messy US mailing addresses to standardized, split fields, with duplicates grouped | 99.5% of cleaned rows fully right, 100% duplicate precision |
 
 All results are on synthetic data. Each repo has a `BENCHMARK.md` with the method and a `LIMITATIONS.md` that says what the tool does not handle.
 
