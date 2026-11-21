@@ -19,6 +19,7 @@ I build small, practical software for small businesses: clean spreadsheets, fast
 | [Bookings by phone and paper](#apis-and-automation) | A booking system that never double-books and handles time zones | [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api) |
 | [Copy-paste work in Google Sheets](#apis-and-automation) | Automations for form cleanup, summary emails, invoices and reminders | [sheets-automations](https://github.com/chasebuilds/sheets-automations) |
 | [A worry that your site is not safe](#security-checkups) | A plain-English checkup of your site's public setup, with fixes in priority order | [Sample report](https://chasebuilds.github.io/site-security-check/) |
+| [Questions buried in a stack of PDFs](#ai-with-local-models) | Answers with the file and page cited, from AI that runs on your own computer | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) |
 <!--/ROWS-->
 
 Anything I'm not sure about goes on a review sheet for you to check. Nothing is changed on a guess.
@@ -74,6 +75,14 @@ Plain-English checkups of a website's public setup, no hacking involved.
 <a href="https://chasebuilds.github.io/site-security-check/"><img src="https://raw.githubusercontent.com/chasebuilds/site-security-check/main/docs/screenshot.png" alt="site-security-check" width="560"></a>
 
 - **[site-security-check](https://github.com/chasebuilds/site-security-check)** · A passive checkup of your own website, written up in plain English with a grade and fixes in order. [Live demo](https://chasebuilds.github.io/site-security-check/).
+
+### AI with local models
+
+AI that runs on your own computer, so private files never leave it.
+
+<a href="https://github.com/chasebuilds/pdf-qa-local"><img src="https://raw.githubusercontent.com/chasebuilds/pdf-qa-local/main/docs/screenshot.png" alt="pdf-qa-local" width="560"></a>
+
+- **[pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local)** · Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private. Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused.
 <!--/GROUPS-->
 
 ### How I work
@@ -84,7 +93,7 @@ Plain-English checkups of a website's public setup, no hacking involved.
 
 <!--ALL-->
 <details>
-<summary><b>All 26 projects</b> (click to open)</summary>
+<summary><b>All 27 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -114,6 +123,7 @@ Plain-English checkups of a website's public setup, no hacking involved.
 | [sheets-automations](https://github.com/chasebuilds/sheets-automations) | APIs and automation | Five Google Sheets automations: form cleanup, summary emails, invoice PDFs, overdue reminders, low-stock alerts |  |
 | [web-data-extractor](https://github.com/chasebuilds/web-data-extractor) | APIs and automation | Public catalog pages to a checked spreadsheet, only where robots.txt allows | 360 of 360 field values correct on the test site |
 | [site-security-check](https://github.com/chasebuilds/site-security-check) | Security checkups | A passive checkup of your own website, written up in plain English with a grade and fixes in order | [Live demo](https://chasebuilds.github.io/site-security-check/) |
+| [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | AI with local models | Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private | Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused |
 
 </details>
 <!--/ALL-->
