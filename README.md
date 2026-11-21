@@ -7,16 +7,18 @@ I build small, practical software for small businesses: clean spreadsheets, fast
 ### What I can do for you
 
 <!--ROWS-->
-| You have | You get back |
-|---|---|
-| A messy Excel or CSV file | One clean file, plus a sheet listing every change I made and why |
-| A pile of PDF invoices or statements | One Excel sheet with the data in rows and columns, totals checked |
-| The same customers spread across several lists | One master list, duplicates merged, every row traceable to its source |
-| A weekly report you build by hand | A one-command report and dashboard that refuses to run on bad data |
-| A business with no website, or an old one | A fast one-page site that works on phones, with your hours, services and map |
-| Bookings by phone and paper | A booking system that never double-books and handles time zones |
-| A worry that your site is not safe | A plain-English checkup of your site's public setup, with fixes in priority order |
-| Questions buried in a stack of PDFs | Answers with the file and page cited, from AI that runs on your own computer |
+| You have | You get back | See it |
+|---|---|---|
+| [A messy Excel or CSV file](#data-cleanup-and-pdfs) | One clean file, plus a sheet listing every change I made and why | [excel-cleaner-pro](https://github.com/chasebuilds/excel-cleaner-pro) |
+| [A pile of PDF invoices or statements](#data-cleanup-and-pdfs) | One Excel sheet with the data in rows and columns, totals checked | [pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel) |
+| [The same customers spread across several lists](#data-cleanup-and-pdfs) | One master list, duplicates merged, every row traceable to its source | [data-merger](https://github.com/chasebuilds/data-merger) |
+| [A weekly report you build by hand](#apps-and-dashboards) | A one-command report and dashboard that refuses to run on bad data | [Live demo](https://chasebuilds.github.io/automated-reporting-system/) |
+| [Sales numbers you can't see at a glance](#apps-and-dashboards) | A dashboard with key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
+| [Job tickets and invoices on paper](#apps-and-dashboards) | A phone app your crew can use offline: tickets, photos, signature, invoice | [Live demo](https://chasebuilds.github.io/field-service-pwa/) |
+| [A business with no website, or an old one](#websites-and-design) | A fast one-page site that works on phones, with your hours, services and map | [Live demos](https://chasebuilds.github.io/local-business-site/) |
+| [Bookings by phone and paper](#apis-and-automation) | A booking system that never double-books and handles time zones | [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api) |
+| [Copy-paste work in Google Sheets](#apis-and-automation) | Automations for form cleanup, summary emails, invoices and reminders | [sheets-automations](https://github.com/chasebuilds/sheets-automations) |
+| [A worry that your site is not safe](#security-checkups) | A plain-English checkup of your site's public setup, with fixes in priority order | [Sample report](https://chasebuilds.github.io/site-security-check/) |
 <!--/ROWS-->
 
 Anything I'm not sure about goes on a review sheet for you to check. Nothing is changed on a guess.
