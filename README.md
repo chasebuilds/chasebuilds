@@ -10,6 +10,7 @@ I build small, practical software for small businesses: clean spreadsheets, fast
 | You have | You get back | See it |
 |---|---|---|
 | [A messy Excel or CSV file](#data-cleanup-and-pdfs) | One clean file, plus a sheet listing every change I made and why | [excel-cleaner-pro](https://github.com/chasebuilds/excel-cleaner-pro) |
+| [Comps and value questions](#real-estate-and-appraisal) | A comps grid and value range with every adjustment shown, plus market trend and ratio checks | [Live demo](https://chasebuilds.github.io/comparable-sales-grid/) |
 | [A pile of PDF invoices or statements](#data-cleanup-and-pdfs) | One Excel sheet with the data in rows and columns, totals checked | [pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel) |
 | [The same customers spread across several lists](#data-cleanup-and-pdfs) | One master list, duplicates merged, every row traceable to its source | [data-merger](https://github.com/chasebuilds/data-merger) |
 | [A weekly report you build by hand](#apps-and-dashboards) | A one-command report and dashboard that refuses to run on bad data | [Live demo](https://chasebuilds.github.io/automated-reporting-system/) |
@@ -18,6 +19,7 @@ I build small, practical software for small businesses: clean spreadsheets, fast
 | [A business with no website, or an old one](#websites-and-design) | A fast one-page site that works on phones, with your hours, services and map | [Live demos](https://chasebuilds.github.io/local-business-site/) |
 | [Bookings by phone and paper](#apis-and-automation) | A booking system that never double-books and handles time zones | [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api) |
 | [Copy-paste work in Google Sheets](#apis-and-automation) | Automations for form cleanup, summary emails, invoices and reminders | [sheets-automations](https://github.com/chasebuilds/sheets-automations) |
+| [A hillside tract you are thinking of buying](#maps-3d-and-land) | A 3D first look: buildable acres, a lot layout, cut and fill, flood zone and four exits priced | [Live demo](https://chasebuilds.github.io/land-feasibility-3d/) |
 | [A worry that your site is not safe](#security-checkups) | A plain-English checkup of your site's public setup, with fixes in priority order | [Sample report](https://chasebuilds.github.io/site-security-check/) |
 | [Questions buried in a stack of PDFs](#ai-with-local-models) | Answers with the file and page cited, from AI that runs on your own computer | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) |
 <!--/ROWS-->
@@ -36,6 +38,26 @@ Messy spreadsheets, PDFs and customer lists turned into clean files, with every 
 - **[data-merger](https://github.com/chasebuilds/data-merger)** · Merges customer lists with different columns into one record per customer. 28,512 rows from 5 files with 0 false merges.
 - **[small-business-county-study](https://github.com/chasebuilds/small-business-county-study)** · Small-business conditions in 31 Eastern Kentucky counties from free Census files, with charts and a written report rebuilt from one command. [Live demo](https://chasebuilds.github.io/small-business-county-study/).
 - Plus 12 more in the full list below.
+
+### Real estate and appraisal
+
+Tools for appraisers, agents and assessors: comps, value models, cost and income approaches, ratio studies. These are analysis tools, not appraisals; a USPAP appraisal needs a licensed or certified appraiser.
+
+<a href="https://chasebuilds.github.io/comparable-sales-grid/"><img src="https://raw.githubusercontent.com/chasebuilds/comparable-sales-grid/main/docs/screenshot.jpg" alt="comparable-sales-grid" width="560"></a>
+
+- **[comparable-sales-grid](https://github.com/chasebuilds/comparable-sales-grid)** · Sales comparison grid: finds comps, adjusts each line with rates measured from the sales file, and reconciles a value range. Within 5% of true value on 93.0% of 200 synthetic test homes. [Live demo](https://chasebuilds.github.io/comparable-sales-grid/).
+- **[home-value-model](https://github.com/chasebuilds/home-value-model)** · Automated valuation model tested on later sales, with a confidence score that says when not to trust an estimate. 6.0% median error, 72.4% within 10%, on 718 later Ames, Iowa sales. [Live demo](https://chasebuilds.github.io/home-value-model/).
+- **[housing-market-trends](https://github.com/chasebuilds/housing-market-trends)** · Market-conditions dashboard: monthly metrics by market and price band, and a time-adjustment rate with a 95% band. 1.55 point mean error on the yearly price change over 196 synthetic market windows. [Live demo](https://chasebuilds.github.io/housing-market-trends/).
+- **[assessment-ratio-study](https://github.com/chasebuilds/assessment-ratio-study)** · IAAO-style sales ratio study of a tax roll: COD, PRD, PRB and sales-chasing checks with a PASS, REVIEW or FAIL report. Regressivity, under-assessment and sales chasing caught in 30 of 30 seeded counties. [Live demo](https://chasebuilds.github.io/assessment-ratio-study/).
+- Plus 4 more in the full list below.
+
+### Maps, 3D and land
+
+Public LiDAR, flood and stream data turned into 3D maps and first-pass land studies in the browser.
+
+<a href="https://chasebuilds.github.io/land-feasibility-3d/"><img src="https://raw.githubusercontent.com/chasebuilds/land-feasibility-3d/main/docs/overview.png" alt="land-feasibility-3d" width="560"></a>
+
+- **[land-feasibility-3d](https://github.com/chasebuilds/land-feasibility-3d)** · First-pass land study in the browser: USGS LiDAR terrain in 3D, slope classes, lots and pads, cut and fill, flood and stream checks, four-exit pro forma. [Live demo](https://chasebuilds.github.io/land-feasibility-3d/).
 
 ### Websites and design
 
@@ -93,7 +115,7 @@ AI that runs on your own computer, so private files never leave it.
 
 <!--ALL-->
 <details>
-<summary><b>All 28 projects</b> (click to open)</summary>
+<summary><b>All 37 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -113,6 +135,15 @@ AI that runs on your own computer, so private files never leave it.
 | [excel-formula-auditor](https://github.com/chasebuilds/excel-formula-auditor) | Data cleanup and PDFs | Scan Excel workbooks for formula errors, hard-coded numbers and broken links | All 6 planted issue types caught, 0 false flags |
 | [transaction-categorizer](https://github.com/chasebuilds/transaction-categorizer) | Data cleanup and PDFs | Categorize bank transactions with editable rules and a monthly summary | 5,100 of 5,100 seeded transactions categorized |
 | [csv-combine-split](https://github.com/chasebuilds/csv-combine-split) | Data cleanup and PDFs | Combine a folder of files with aligned columns, or split a big file | 100,000 of 100,000 rows out, columns aligned |
+| [comparable-sales-grid](https://github.com/chasebuilds/comparable-sales-grid) | Real estate and appraisal | Sales comparison grid: finds comps, adjusts each line with rates measured from the sales file, and reconciles a value range | Within 5% of true value on 93.0% of 200 synthetic test homes. [Live demo](https://chasebuilds.github.io/comparable-sales-grid/) |
+| [home-value-model](https://github.com/chasebuilds/home-value-model) | Real estate and appraisal | Automated valuation model tested on later sales, with a confidence score that says when not to trust an estimate | 6.0% median error, 72.4% within 10%, on 718 later Ames, Iowa sales. [Live demo](https://chasebuilds.github.io/home-value-model/) |
+| [housing-market-trends](https://github.com/chasebuilds/housing-market-trends) | Real estate and appraisal | Market-conditions dashboard: monthly metrics by market and price band, and a time-adjustment rate with a 95% band | 1.55 point mean error on the yearly price change over 196 synthetic market windows. [Live demo](https://chasebuilds.github.io/housing-market-trends/) |
+| [assessment-ratio-study](https://github.com/chasebuilds/assessment-ratio-study) | Real estate and appraisal | IAAO-style sales ratio study of a tax roll: COD, PRD, PRB and sales-chasing checks with a PASS, REVIEW or FAIL report | Regressivity, under-assessment and sales chasing caught in 30 of 30 seeded counties. [Live demo](https://chasebuilds.github.io/assessment-ratio-study/) |
+| [listing-data-normalizer](https://github.com/chasebuilds/listing-data-normalizer) | Real estate and appraisal | Messy MLS, assessor and comps exports to one table in RESO field names, duplicates merged, price history kept | 159,352 of 159,352 fields exact, 98.8% of duplicate pairs found. [Live demo](https://chasebuilds.github.io/listing-data-normalizer/) |
+| [income-approach-valuation](https://github.com/chasebuilds/income-approach-valuation) | Real estate and appraisal | Income approach for rentals and small commercial: rent roll to NOI, direct cap, band of investment and DCF, reconciled | [Live demo](https://chasebuilds.github.io/income-approach-valuation/) |
+| [cost-approach-calculator](https://github.com/chasebuilds/cost-approach-calculator) | Real estate and appraisal | Cost approach calculator: replacement cost new, depreciation and land value to an indicated value, every step shown | [Live demo](https://chasebuilds.github.io/cost-approach-calculator/) |
+| [valuation-report-builder](https://github.com/chasebuilds/valuation-report-builder) | Real estate and appraisal | One YAML or JSON file to a clean property valuation summary in HTML and PDF, with the math checked first | [Live demo](https://chasebuilds.github.io/valuation-report-builder/) |
+| [land-feasibility-3d](https://github.com/chasebuilds/land-feasibility-3d) | Maps, 3D and land | First-pass land study in the browser: USGS LiDAR terrain in 3D, slope classes, lots and pads, cut and fill, flood and stream checks, four-exit pro forma | [Live demo](https://chasebuilds.github.io/land-feasibility-3d/) |
 | [local-business-site](https://github.com/chasebuilds/local-business-site) | Websites and design | One YAML file to a fast, mobile-first one-page website for a local business, in three themes | [Live demo](https://chasebuilds.github.io/local-business-site/) |
 | [motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery) | Websites and design | Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off | [Live demo](https://chasebuilds.github.io/motion-design-gallery/) |
 | [react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard) | Apps and dashboards | Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
