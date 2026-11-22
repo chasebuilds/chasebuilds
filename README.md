@@ -67,6 +67,9 @@ Fast, mobile-first pages and motion that work without a framework.
 
 - **[local-business-site](https://github.com/chasebuilds/local-business-site)** · One YAML file to a fast, mobile-first one-page website for a local business, in three themes. [Live demo](https://chasebuilds.github.io/local-business-site/).
 - **[motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery)** · Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off. [Live demo](https://chasebuilds.github.io/motion-design-gallery/).
+- **[r3f-showcase](https://github.com/chasebuilds/r3f-showcase)** · Four interactive 3D website pieces in React Three Fiber: product configurator, scroll-driven hero, gallery wall and a shader planet. Lighthouse mobile score 100 on the overview, 76 to 90 on the 3D pages. [Live demo](https://chasebuilds.github.io/r3f-showcase/).
+- **[liquid-logo-studio](https://github.com/chasebuilds/liquid-logo-studio)** · Any SVG or PNG logo to animated liquid chrome, gold or holographic metal, saved as PNG or WebM or embedded with one script. Embed script is 8,000 bytes gzipped. [Live demo](https://chasebuilds.github.io/liquid-logo-studio/).
+- Plus 1 more in the full list below.
 
 ### Apps and dashboards
 
@@ -84,8 +87,9 @@ Web apps, dashboards and browser tools that run on a phone or laptop.
 
 Backends and scripts that take repeat work off your plate.
 
-<a href="https://github.com/chasebuilds/appointment-booking-api"><img src="https://raw.githubusercontent.com/chasebuilds/appointment-booking-api/main/docs/openapi-docs.png" alt="appointment-booking-api" width="560"></a>
+<a href="https://chasebuilds.github.io/webgpu-agent-kit/"><img src="https://raw.githubusercontent.com/chasebuilds/webgpu-agent-kit/main/docs/preview.png" alt="webgpu-agent-kit" width="560"></a>
 
+- **[webgpu-agent-kit](https://github.com/chasebuilds/webgpu-agent-kit)** · Helps AI coding agents write working WebGPU code: ten live examples, a line-numbered WGSL checker, a CLI and an MCP server. 10 of 10 examples render with no validation errors. [Live demo](https://chasebuilds.github.io/webgpu-agent-kit/).
 - **[appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api)** · Booking backend for a small business: staff hours, time off, no double-booking, time-zone-correct slots.
 - **[sheets-automations](https://github.com/chasebuilds/sheets-automations)** · Five Google Sheets automations: form cleanup, summary emails, invoice PDFs, overdue reminders, low-stock alerts.
 - **[web-data-extractor](https://github.com/chasebuilds/web-data-extractor)** · Public catalog pages to a checked spreadsheet, only where robots.txt allows. 360 of 360 field values correct on the test site.
@@ -115,7 +119,7 @@ AI that runs on your own computer, so private files never leave it.
 
 <!--ALL-->
 <details>
-<summary><b>All 37 projects</b> (click to open)</summary>
+<summary><b>All 41 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -146,11 +150,15 @@ AI that runs on your own computer, so private files never leave it.
 | [land-feasibility-3d](https://github.com/chasebuilds/land-feasibility-3d) | Maps, 3D and land | First-pass land study in the browser: USGS LiDAR terrain in 3D, slope classes, lots and pads, cut and fill, flood and stream checks, four-exit pro forma | [Live demo](https://chasebuilds.github.io/land-feasibility-3d/) |
 | [local-business-site](https://github.com/chasebuilds/local-business-site) | Websites and design | One YAML file to a fast, mobile-first one-page website for a local business, in three themes | [Live demo](https://chasebuilds.github.io/local-business-site/) |
 | [motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery) | Websites and design | Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off | [Live demo](https://chasebuilds.github.io/motion-design-gallery/) |
+| [r3f-showcase](https://github.com/chasebuilds/r3f-showcase) | Websites and design | Four interactive 3D website pieces in React Three Fiber: product configurator, scroll-driven hero, gallery wall and a shader planet | Lighthouse mobile score 100 on the overview, 76 to 90 on the 3D pages. [Live demo](https://chasebuilds.github.io/r3f-showcase/) |
+| [liquid-logo-studio](https://github.com/chasebuilds/liquid-logo-studio) | Websites and design | Any SVG or PNG logo to animated liquid chrome, gold or holographic metal, saved as PNG or WebM or embedded with one script | Embed script is 8,000 bytes gzipped. [Live demo](https://chasebuilds.github.io/liquid-logo-studio/) |
+| [cursor-fluid](https://github.com/chasebuilds/cursor-fluid) | Websites and design | A dependency-free WebGL2 fluid background that follows the cursor, keeps hero text readable and scales quality to hold frame rate on phones | 6,984 bytes gzipped, no dependencies. [Live demo](https://chasebuilds.github.io/cursor-fluid/) |
 | [react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard) | Apps and dashboards | Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
 | [pc-build-planner](https://github.com/chasebuilds/pc-build-planner) | Apps and dashboards | Pick a budget and use case, get a PC parts list where every part fits, with the reason for each pick | [Live demo](https://chasebuilds.github.io/pc-build-planner/) |
 | [field-service-pwa](https://github.com/chasebuilds/field-service-pwa) | Apps and dashboards | Phone app for trades crews: job tickets, checklists, photos, parts, time, customer signature and invoice. Works offline | [Live demo](https://chasebuilds.github.io/field-service-pwa/) |
 | [table-export-extension](https://github.com/chasebuilds/table-export-extension) | Apps and dashboards | Chrome and Edge extension that exports any table on a web page to CSV or Excel. No data leaves the browser |  |
 | [automated-reporting-system](https://github.com/chasebuilds/automated-reporting-system) | Apps and dashboards | Raw weekly exports to a finished Excel report and HTML dashboard | 876 of 876 KPI values exact, 17 of 18 planted faults caught. [Live demo](https://chasebuilds.github.io/automated-reporting-system/) |
+| [webgpu-agent-kit](https://github.com/chasebuilds/webgpu-agent-kit) | APIs and automation | Helps AI coding agents write working WebGPU code: ten live examples, a line-numbered WGSL checker, a CLI and an MCP server | 10 of 10 examples render with no validation errors. [Live demo](https://chasebuilds.github.io/webgpu-agent-kit/) |
 | [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api) | APIs and automation | Booking backend for a small business: staff hours, time off, no double-booking, time-zone-correct slots |  |
 | [sheets-automations](https://github.com/chasebuilds/sheets-automations) | APIs and automation | Five Google Sheets automations: form cleanup, summary emails, invoice PDFs, overdue reminders, low-stock alerts |  |
 | [web-data-extractor](https://github.com/chasebuilds/web-data-extractor) | APIs and automation | Public catalog pages to a checked spreadsheet, only where robots.txt allows | 360 of 360 field values correct on the test site |
