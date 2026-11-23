@@ -1,37 +1,46 @@
-## Hi, I'm Chase Builds 👋
+<a href="https://chasebuilds.github.io"><img src="assets/banner.jpg" alt="Chase Builds: graphics, 3D web and data tools. Written from scratch, tested on every push, measured against known answers." width="100%"></a>
 
-I build small, practical software for small businesses: clean spreadsheets, fast websites, dashboards, booking systems, automations and security checkups. Every project here is tested, documented, and many have a live demo you can click.
+<p align="center">
+<img src="https://img.shields.io/badge/WebGPU-1b1714?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU"> <img src="https://img.shields.io/badge/WebGL2%20%2B%20GLSL-1b1714?style=flat-square&logo=webgl&logoColor=white" alt="WebGL2 %2B GLSL"> <img src="https://img.shields.io/badge/Three.js-1b1714?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/React-1b1714?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/TypeScript-1b1714?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/Python-1b1714?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/pandas-1b1714?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/scikit--learn-1b1714?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit--learn"> <img src="https://img.shields.io/badge/DuckDB-1b1714?style=flat-square&logo=duckdb&logoColor=FFF000" alt="DuckDB"> <img src="https://img.shields.io/badge/MCP-1b1714?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP">
+</p>
 
-**[See my work](https://chasebuilds.github.io)** · **[Hire me on Upwork](https://www.upwork.com/freelancers/~0107f20574d26eac0e)**
+<p align="center"><b><a href="#featured">Featured</a></b> · <b><a href="#benchmarks">Benchmarks</a></b> · <b><a href="#all-work">All work</a></b> · <b><a href="https://chasebuilds.github.io">Site</a></b></p>
 
-### What I can do for you
+### Featured
 
-<!--ROWS-->
-| You have | You get back | See it |
+Live demos run in the browser. Click a picture to open one.
+
+<!--SHOWCASE-->
+<table>
+<tr><td width="50%" valign="top"><a href="https://chasebuilds.github.io/r3f-showcase/"><img src="https://chasebuilds.github.io/img/r3f-showcase-sm.webp" alt="r3f-showcase" width="100%"></a><br><b><a href="https://github.com/chasebuilds/r3f-showcase">r3f-showcase</a></b><br>React Three Fiber scenes: product configurator, scroll-driven hero, gallery wall, GLSL lava planet.<br><sub>Lighthouse mobile 76 to 90 on the 3D pages</sub></td><td width="50%" valign="top"><a href="https://chasebuilds.github.io/webgpu-agent-kit/"><img src="https://chasebuilds.github.io/img/webgpu-agent-kit-sm.webp" alt="webgpu-agent-kit" width="100%"></a><br><b><a href="https://github.com/chasebuilds/webgpu-agent-kit">webgpu-agent-kit</a></b><br>10 WebGPU examples, naga WGSL validation, a CLI and an MCP server so coding agents write GPU code that runs.<br><sub>10 of 10 examples render with no validation errors</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://chasebuilds.github.io/liquid-logo-studio/"><img src="https://chasebuilds.github.io/img/liquid-logo-studio-sm.webp" alt="liquid-logo-studio" width="100%"></a><br><b><a href="https://github.com/chasebuilds/liquid-logo-studio">liquid-logo-studio</a></b><br>Logo to liquid metal: distance-field bevel and reflection shader in WebGL2, PNG and WebM export, one-tag embed.<br><sub>Embed script 8,000 bytes gzipped</sub></td><td width="50%" valign="top"><a href="https://chasebuilds.github.io/cursor-fluid/"><img src="https://chasebuilds.github.io/img/cursor-fluid-sm.webp" alt="cursor-fluid" width="100%"></a><br><b><a href="https://github.com/chasebuilds/cursor-fluid">cursor-fluid</a></b><br>Stable-fluids solver in WebGL2: advection, Jacobi pressure solve, vorticity confinement, adaptive quality.<br><sub>6,984 bytes gzipped, zero dependencies</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://chasebuilds.github.io/land-feasibility-3d/"><img src="https://chasebuilds.github.io/img/land-feasibility-3d-sm.webp" alt="land-feasibility-3d" width="100%"></a><br><b><a href="https://github.com/chasebuilds/land-feasibility-3d">land-feasibility-3d</a></b><br>USGS LiDAR terrain in 3D with slope classes, lot layout, cut and fill, flood and stream checks.</td><td width="50%" valign="top"><a href="https://chasebuilds.github.io/home-value-model/"><img src="https://chasebuilds.github.io/img/home-value-model-sm.webp" alt="home-value-model" width="100%"></a><br><b><a href="https://github.com/chasebuilds/home-value-model">home-value-model</a></b><br>Automated valuation model: hedonic ridge and gradient boosting, time-split test, IAAO accuracy metrics.<br><sub>6.0% median error on 718 later Ames, Iowa sales</sub></td></tr>
+</table>
+<!--/SHOWCASE-->
+
+### Benchmarks
+
+Scored by a script against data where the right answer is known. Each repo's `BENCHMARK.md` says how it was measured and where it falls short.
+
+<!--BENCH-->
+| Repo | What it does | Measured |
 |---|---|---|
-| [A messy Excel or CSV file](#data-cleanup-and-pdfs) | One clean file, plus a sheet listing every change I made and why | [excel-cleaner-pro](https://github.com/chasebuilds/excel-cleaner-pro) |
-| [Comps and value questions](#real-estate-and-appraisal) | A comps grid and value range with every adjustment shown, plus market trend and ratio checks | [Live demo](https://chasebuilds.github.io/comparable-sales-grid/) |
-| [A pile of PDF invoices or statements](#data-cleanup-and-pdfs) | One Excel sheet with the data in rows and columns, totals checked | [pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel) |
-| [The same customers spread across several lists](#data-cleanup-and-pdfs) | One master list, duplicates merged, every row traceable to its source | [data-merger](https://github.com/chasebuilds/data-merger) |
-| [A weekly report you build by hand](#apps-and-dashboards) | A one-command report and dashboard that refuses to run on bad data | [Live demo](https://chasebuilds.github.io/automated-reporting-system/) |
-| [Sales numbers you can't see at a glance](#apps-and-dashboards) | A dashboard with key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
-| [Job tickets and invoices on paper](#apps-and-dashboards) | A phone app your crew can use offline: tickets, photos, signature, invoice | [Live demo](https://chasebuilds.github.io/field-service-pwa/) |
-| [A business with no website, or an old one](#websites-and-design) | A fast one-page site that works on phones, with your hours, services and map | [Live demos](https://chasebuilds.github.io/local-business-site/) |
-| [Bookings by phone and paper](#apis-and-automation) | A booking system that never double-books and handles time zones | [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api) |
-| [Copy-paste work in Google Sheets](#apis-and-automation) | Automations for form cleanup, summary emails, invoices and reminders | [sheets-automations](https://github.com/chasebuilds/sheets-automations) |
-| [A hillside tract you are thinking of buying](#maps-3d-and-land) | A 3D first look: buildable acres, a lot layout, cut and fill, flood zone and four exits priced | [Live demo](https://chasebuilds.github.io/land-feasibility-3d/) |
-| [A worry that your site is not safe](#security-checkups) | A plain-English checkup of your site's public setup, with fixes in priority order | [Sample report](https://chasebuilds.github.io/site-security-check/) |
-| [Questions buried in a stack of PDFs](#ai-with-local-models) | Answers with the file and page cited, from AI that runs on your own computer | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) |
-<!--/ROWS-->
+| [pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel) | Invoice PDFs to one Excel workbook, with a confidence score on every field | 3,600 of 3,600 fields correct on 400 invoices in 10 layouts |
+| [pdf-table-extractor](https://github.com/chasebuilds/pdf-table-extractor) | Tables from digital PDFs to clean Excel and CSV, stitched across pages, with a totals check on every table | 38,528 of 38,968 cells exact, 240 of 240 tables found |
+| [data-quality-checks](https://github.com/chasebuilds/data-quality-checks) | Declarative checks for CSV, Excel and Parquet files, run as DuckDB SQL, with a pass/fail report | 1,784 of 1,800 planted faults caught, 0 false alarms in 220 clean runs |
+| [data-merger](https://github.com/chasebuilds/data-merger) | Merges customer lists with different columns into one record per customer | 28,512 rows from 5 files with 0 false merges |
+| [listing-data-normalizer](https://github.com/chasebuilds/listing-data-normalizer) | Messy MLS, assessor and comps exports to one table in RESO field names, duplicates merged, price history kept | 159,352 of 159,352 fields exact, 98.8% of duplicate pairs found |
+| [comparable-sales-grid](https://github.com/chasebuilds/comparable-sales-grid) | Sales comparison grid: finds comps, adjusts each line with rates measured from the sales file, and reconciles a value range | Within 5% of true value on 93.0% of 200 synthetic test homes |
+| [home-value-model](https://github.com/chasebuilds/home-value-model) | Automated valuation model tested on later sales, with a confidence score that says when not to trust an estimate | 6.0% median error, 72.4% within 10%, on 718 later Ames, Iowa sales |
+| [assessment-ratio-study](https://github.com/chasebuilds/assessment-ratio-study) | IAAO-style sales ratio study of a tax roll: COD, PRD, PRB and sales-chasing checks with a PASS, REVIEW or FAIL report | Regressivity, under-assessment and sales chasing caught in 30 of 30 seeded counties |
+| [automated-reporting-system](https://github.com/chasebuilds/automated-reporting-system) | Raw weekly exports to a finished Excel report and HTML dashboard | 876 of 876 KPI values exact, 17 of 18 planted faults caught |
+| [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private | Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused |
+<!--/BENCH-->
 
-Anything I'm not sure about goes on a review sheet for you to check. Nothing is changed on a guess.
+### All work
 
 <!--GROUPS-->
-### Data cleanup and PDFs
-
-Messy spreadsheets, PDFs and customer lists turned into clean files, with every change logged.
-
-<a href="https://github.com/chasebuilds/pdf-to-excel"><img src="https://raw.githubusercontent.com/chasebuilds/pdf-to-excel/main/docs/preview.png" alt="pdf-to-excel" width="560"></a>
+#### Data cleanup and PDFs
 
 - **[pdf-to-excel](https://github.com/chasebuilds/pdf-to-excel)** · Invoice PDFs to one Excel workbook, with a confidence score on every field. 3,600 of 3,600 fields correct on 400 invoices in 10 layouts.
 - **[excel-cleaner-pro](https://github.com/chasebuilds/excel-cleaner-pro)** · Cleans messy CSV and Excel files and logs every change on an audit sheet. 5,615 of 5,627 fixable errors fixed, 611 of 611 unsafe values flagged.
@@ -39,11 +48,7 @@ Messy spreadsheets, PDFs and customer lists turned into clean files, with every 
 - **[small-business-county-study](https://github.com/chasebuilds/small-business-county-study)** · Small-business conditions in 31 Eastern Kentucky counties from free Census files, with charts and a written report rebuilt from one command. [Live demo](https://chasebuilds.github.io/small-business-county-study/).
 - Plus 12 more in the full list below.
 
-### Real estate and appraisal
-
-Tools for appraisers, agents and assessors: comps, value models, cost and income approaches, ratio studies. These are analysis tools, not appraisals; a USPAP appraisal needs a licensed or certified appraiser.
-
-<a href="https://chasebuilds.github.io/comparable-sales-grid/"><img src="https://raw.githubusercontent.com/chasebuilds/comparable-sales-grid/main/docs/screenshot.jpg" alt="comparable-sales-grid" width="560"></a>
+#### Real estate and appraisal
 
 - **[comparable-sales-grid](https://github.com/chasebuilds/comparable-sales-grid)** · Sales comparison grid: finds comps, adjusts each line with rates measured from the sales file, and reconciles a value range. Within 5% of true value on 93.0% of 200 synthetic test homes. [Live demo](https://chasebuilds.github.io/comparable-sales-grid/).
 - **[home-value-model](https://github.com/chasebuilds/home-value-model)** · Automated valuation model tested on later sales, with a confidence score that says when not to trust an estimate. 6.0% median error, 72.4% within 10%, on 718 later Ames, Iowa sales. [Live demo](https://chasebuilds.github.io/home-value-model/).
@@ -51,19 +56,11 @@ Tools for appraisers, agents and assessors: comps, value models, cost and income
 - **[assessment-ratio-study](https://github.com/chasebuilds/assessment-ratio-study)** · IAAO-style sales ratio study of a tax roll: COD, PRD, PRB and sales-chasing checks with a PASS, REVIEW or FAIL report. Regressivity, under-assessment and sales chasing caught in 30 of 30 seeded counties. [Live demo](https://chasebuilds.github.io/assessment-ratio-study/).
 - Plus 4 more in the full list below.
 
-### Maps, 3D and land
-
-Public LiDAR, flood and stream data turned into 3D maps and first-pass land studies in the browser.
-
-<a href="https://chasebuilds.github.io/land-feasibility-3d/"><img src="https://raw.githubusercontent.com/chasebuilds/land-feasibility-3d/main/docs/overview.png" alt="land-feasibility-3d" width="560"></a>
+#### Maps, 3D and land
 
 - **[land-feasibility-3d](https://github.com/chasebuilds/land-feasibility-3d)** · First-pass land study in the browser: USGS LiDAR terrain in 3D, slope classes, lots and pads, cut and fill, flood and stream checks, four-exit pro forma. [Live demo](https://chasebuilds.github.io/land-feasibility-3d/).
 
-### Websites and design
-
-Fast, mobile-first pages and motion that work without a framework.
-
-<a href="https://chasebuilds.github.io/local-business-site/"><img src="https://raw.githubusercontent.com/chasebuilds/local-business-site/main/docs/bakery.png" alt="local-business-site" width="560"></a>
+#### Websites and design
 
 - **[local-business-site](https://github.com/chasebuilds/local-business-site)** · One YAML file to a fast, mobile-first one-page website for a local business, in three themes. [Live demo](https://chasebuilds.github.io/local-business-site/).
 - **[motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery)** · Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off. [Live demo](https://chasebuilds.github.io/motion-design-gallery/).
@@ -71,11 +68,7 @@ Fast, mobile-first pages and motion that work without a framework.
 - **[liquid-logo-studio](https://github.com/chasebuilds/liquid-logo-studio)** · Any SVG or PNG logo to animated liquid chrome, gold or holographic metal, saved as PNG or WebM or embedded with one script. Embed script is 8,000 bytes gzipped. [Live demo](https://chasebuilds.github.io/liquid-logo-studio/).
 - Plus 1 more in the full list below.
 
-### Apps and dashboards
-
-Web apps, dashboards and browser tools that run on a phone or laptop.
-
-<a href="https://chasebuilds.github.io/react-analytics-dashboard/"><img src="https://raw.githubusercontent.com/chasebuilds/react-analytics-dashboard/main/docs/screenshot.png" alt="react-analytics-dashboard" width="560"></a>
+#### Apps and dashboards
 
 - **[react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard)** · Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export. [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/).
 - **[pc-build-planner](https://github.com/chasebuilds/pc-build-planner)** · Pick a budget and use case, get a PC parts list where every part fits, with the reason for each pick. [Live demo](https://chasebuilds.github.io/pc-build-planner/).
@@ -83,39 +76,28 @@ Web apps, dashboards and browser tools that run on a phone or laptop.
 - **[table-export-extension](https://github.com/chasebuilds/table-export-extension)** · Chrome and Edge extension that exports any table on a web page to CSV or Excel. No data leaves the browser.
 - Plus 1 more in the full list below.
 
-### APIs and automation
-
-Backends and scripts that take repeat work off your plate.
-
-<a href="https://chasebuilds.github.io/webgpu-agent-kit/"><img src="https://raw.githubusercontent.com/chasebuilds/webgpu-agent-kit/main/docs/preview.png" alt="webgpu-agent-kit" width="560"></a>
+#### APIs and automation
 
 - **[webgpu-agent-kit](https://github.com/chasebuilds/webgpu-agent-kit)** · Helps AI coding agents write working WebGPU code: ten live examples, a line-numbered WGSL checker, a CLI and an MCP server. 10 of 10 examples render with no validation errors. [Live demo](https://chasebuilds.github.io/webgpu-agent-kit/).
 - **[appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api)** · Booking backend for a small business: staff hours, time off, no double-booking, time-zone-correct slots.
 - **[sheets-automations](https://github.com/chasebuilds/sheets-automations)** · Five Google Sheets automations: form cleanup, summary emails, invoice PDFs, overdue reminders, low-stock alerts.
 - **[web-data-extractor](https://github.com/chasebuilds/web-data-extractor)** · Public catalog pages to a checked spreadsheet, only where robots.txt allows. 360 of 360 field values correct on the test site.
 
-### Security checkups
-
-Plain-English checkups of a website's public setup, no hacking involved.
-
-<a href="https://chasebuilds.github.io/site-security-check/"><img src="https://raw.githubusercontent.com/chasebuilds/site-security-check/main/docs/screenshot.png" alt="site-security-check" width="560"></a>
+#### Security checkups
 
 - **[site-security-check](https://github.com/chasebuilds/site-security-check)** · A passive checkup of your own website, written up in plain English with a grade and fixes in order. [Live demo](https://chasebuilds.github.io/site-security-check/).
 
-### AI with local models
-
-AI that runs on your own computer, so private files never leave it.
-
-<a href="https://github.com/chasebuilds/pdf-qa-local"><img src="https://raw.githubusercontent.com/chasebuilds/pdf-qa-local/main/docs/screenshot.png" alt="pdf-qa-local" width="560"></a>
+#### AI with local models
 
 - **[pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local)** · Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private. Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused.
 <!--/GROUPS-->
 
-### How I work
+### How I build
 
-- **Measured, not claimed.** Tools are tested against generated data where the right answer is known, and the score is written by a script. Results are on synthetic data; repos say what they were tested on and where they fall short.
-- **Checkable.** You get an audit sheet of every change and a review sheet for anything uncertain.
+- **Measured, not claimed.** Each tool is scored against data where the right answer is known, by a script, not by hand. Repos say what they were tested on and where they fall short.
+- **Checkable.** Uncertain results go to a review sheet instead of being guessed.
 - **Tested code.** Every repo runs linting, type checks and tests on each push.
+- **Written from scratch.** Shaders, solvers and models are my own code; projects that started from an idea elsewhere credit it in their README.
 
 <!--ALL-->
 <details>
