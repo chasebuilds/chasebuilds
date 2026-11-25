@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/WebGPU-1b1714?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU"> <img src="https://img.shields.io/badge/WebGL2%20%2B%20GLSL-1b1714?style=flat-square&logo=webgl&logoColor=white" alt="WebGL2 %2B GLSL"> <img src="https://img.shields.io/badge/Three.js-1b1714?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/React-1b1714?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/TypeScript-1b1714?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/Python-1b1714?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/pandas-1b1714?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/scikit--learn-1b1714?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit--learn"> <img src="https://img.shields.io/badge/DuckDB-1b1714?style=flat-square&logo=duckdb&logoColor=FFF000" alt="DuckDB"> <img src="https://img.shields.io/badge/MCP-1b1714?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP">
 </p>
 
-<p align="center"><b>I build tools that do the boring part of your job for you, and I prove they work.</b><br>48 public projects, 43 with a live demo you can try in your browser. Every one is tested on each push, and most are scored against data where the right answer is known.</p>
+<p align="center"><b>I build tools that do the boring part of your job for you, and I prove they work.</b><br>50 public projects, 45 with a live demo you can try in your browser. Every one is tested on each push, and most are scored against data where the right answer is known.</p>
 
 <a id="top"></a>
 
@@ -34,7 +34,7 @@
 | [How I work](#how-i-work) | [By industry](#real-estate-and-appraisal) | [How I test](#how-i-test) | [Book a free call](https://calendly.com/chasebuilds-ky/30min) |
 | [FAQ](#faq) | [By skill](#by-skill) | [Tech stack](#tech-stack) | [Website](https://chasebuilds.github.io) |
 | [Now building](#now-building) | [Live demos](#live-demos) | [Releases](https://github.com/chasebuilds?tab=repositories) | [Reuse and license](#reuse-and-license) |
-| | [All 48 projects](#all-projects) | | [Privacy](#privacy) |
+| | [All 50 projects](#all-projects) | | [Privacy](#privacy) |
 
 </details>
 
@@ -149,6 +149,7 @@ For small businesses that want to know their website and files are safe, without
 For anyone who wants the repetitive part of a job done by a script or a private AI.
 
 <table>
+<tr><td width="33%" valign="top"><a href="https://chasebuilds.github.io/ask-your-spreadsheet/"><img src="https://chasebuilds.github.io/img/ask-your-spreadsheet-sm.webp" alt="ask-your-spreadsheet" width="100%"></a><br><b><a href="https://github.com/chasebuilds/ask-your-spreadsheet">ask-your-spreadsheet</a></b><br>Search a spreadsheet in plain English with AI that runs in your browser. The file is never uploaded. Right rows in the top 5 on 87.1% of test questions.<br><sub><a href="https://github.com/chasebuilds/ask-your-spreadsheet">Code</a> · <a href="https://chasebuilds.github.io/ask-your-spreadsheet/">Live demo</a></sub></td><td width="33%" valign="top"><a href="https://chasebuilds.github.io/receipt-reader-ai/"><img src="https://chasebuilds.github.io/img/receipt-reader-ai-sm.webp" alt="receipt-reader-ai" width="100%"></a><br><b><a href="https://github.com/chasebuilds/receipt-reader-ai">receipt-reader-ai</a></b><br>Reads receipt photos in your browser and fills a spreadsheet: vendor, date, total, tax, category. Total right to the cent on 60 of 60 test receipts.<br><sub><a href="https://github.com/chasebuilds/receipt-reader-ai">Code</a> · <a href="https://chasebuilds.github.io/receipt-reader-ai/">Live demo</a></sub></td></tr>
 <tr><td width="33%" valign="top"><a href="https://github.com/chasebuilds/pdf-qa-local"><img src="https://chasebuilds.github.io/img/pdf-qa-local-sm.webp" alt="pdf-qa-local" width="100%"></a><br><b><a href="https://github.com/chasebuilds/pdf-qa-local">pdf-qa-local</a></b><br>Private answers from a folder of PDFs, citing file and page. Right page on 29 of 30 test questions.<br><sub><a href="https://github.com/chasebuilds/pdf-qa-local">Code</a></sub></td><td width="33%" valign="top"><a href="https://chasebuilds.github.io/webgpu-agent-kit/"><img src="https://chasebuilds.github.io/img/webgpu-agent-kit-sm.webp" alt="webgpu-agent-kit" width="100%"></a><br><b><a href="https://github.com/chasebuilds/webgpu-agent-kit">webgpu-agent-kit</a></b><br>Helps AI coding agents write GPU code that actually runs. 10 of 10 examples render clean.<br><sub><a href="https://github.com/chasebuilds/webgpu-agent-kit">Code</a> · <a href="https://chasebuilds.github.io/webgpu-agent-kit/">Live demo</a></sub></td><td width="33%" valign="top"><a href="https://github.com/chasebuilds/web-data-extractor"><img src="https://chasebuilds.github.io/img/web-data-extractor-sm.webp" alt="web-data-extractor" width="100%"></a><br><b><a href="https://github.com/chasebuilds/web-data-extractor">web-data-extractor</a></b><br>Public web pages to a checked spreadsheet, only where the site allows it.<br><sub><a href="https://github.com/chasebuilds/web-data-extractor">Code</a></sub></td></tr>
 <tr><td width="33%" valign="top"><a href="https://chasebuilds.github.io/sheets-automations/"><img src="https://chasebuilds.github.io/img/sheets-automations-sm.webp" alt="sheets-automations" width="100%"></a><br><b><a href="https://github.com/chasebuilds/sheets-automations">sheets-automations</a></b><br>Spreadsheets that email, invoice and remind on their own.<br><sub><a href="https://github.com/chasebuilds/sheets-automations">Code</a> · <a href="https://chasebuilds.github.io/sheets-automations/">Live demo</a></sub></td><td width="33%" valign="top"><a href="https://github.com/chasebuilds/self-healing-agents"><img src="https://raw.githubusercontent.com/chasebuilds/self-healing-agents/main/docs/run.png" alt="self-healing-agents" width="100%"></a><br><b><a href="https://github.com/chasebuilds/self-healing-agents">self-healing-agents</a></b><br>Agents that check whether their own output still reaches a person.<br><sub><a href="https://github.com/chasebuilds/self-healing-agents">Code</a></sub></td></tr>
 </table>
@@ -254,6 +255,8 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 #### AI with local models
 
 - **[pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local)** · Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private. Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused.
+- **[ask-your-spreadsheet](https://github.com/chasebuilds/ask-your-spreadsheet)** · Search a CSV or Excel sheet in plain English, like "customers in Pikeville who owe over $500", with a small AI model that runs in your browser. The file is never uploaded. Right rows in the top 5 on 87.1% of 45 labeled questions (keyword search alone: 43.0%). [Live demo](https://chasebuilds.github.io/ask-your-spreadsheet/).
+- **[receipt-reader-ai](https://github.com/chasebuilds/receipt-reader-ai)** · Reads receipt and invoice photos in your browser and fills a spreadsheet: vendor, date, total, tax and category, with CSV and Excel export. Nothing is uploaded. Total within 1 cent on 60 of 60 held-out receipts; all five fields right on 58 of 60. [Live demo](https://chasebuilds.github.io/receipt-reader-ai/).
 <!--/GROUPS-->
 
 <sub>[Back to top](#top)</sub>
@@ -320,7 +323,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 
 <!--ALL-->
 <details>
-<summary><b>All 48 projects</b> (click to open)</summary>
+<summary><b>All 50 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -372,6 +375,8 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 | [site-security-check](https://github.com/chasebuilds/site-security-check) | Security checkups | A passive checkup of your own website, written up in plain English with a grade and fixes in order | [Live demo](https://chasebuilds.github.io/site-security-check/) |
 | [pii-redactor](https://github.com/chasebuilds/pii-redactor) | Security checkups | Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline | 98.7% precision, 82.0% recall on 11,350 planted values; every targeted format found. [Live demo](https://chasebuilds.github.io/pii-redactor/) |
 | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | AI with local models | Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private | Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused |
+| [ask-your-spreadsheet](https://github.com/chasebuilds/ask-your-spreadsheet) | AI with local models | Search a CSV or Excel sheet in plain English, like "customers in Pikeville who owe over $500", with a small AI model that runs in your browser. The file is never uploaded | Right rows in the top 5 on 87.1% of 45 labeled questions (keyword search alone: 43.0%). [Live demo](https://chasebuilds.github.io/ask-your-spreadsheet/) |
+| [receipt-reader-ai](https://github.com/chasebuilds/receipt-reader-ai) | AI with local models | Reads receipt and invoice photos in your browser and fills a spreadsheet: vendor, date, total, tax and category, with CSV and Excel export. Nothing is uploaded | Total within 1 cent on 60 of 60 held-out receipts; all five fields right on 58 of 60. [Live demo](https://chasebuilds.github.io/receipt-reader-ai/) |
 
 </details>
 <!--/ALL-->
