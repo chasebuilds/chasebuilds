@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/WebGPU-1b1714?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU"> <img src="https://img.shields.io/badge/WebGL2%20%2B%20GLSL-1b1714?style=flat-square&logo=webgl&logoColor=white" alt="WebGL2 %2B GLSL"> <img src="https://img.shields.io/badge/Three.js-1b1714?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/React-1b1714?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/TypeScript-1b1714?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/Python-1b1714?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/pandas-1b1714?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/scikit--learn-1b1714?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit--learn"> <img src="https://img.shields.io/badge/DuckDB-1b1714?style=flat-square&logo=duckdb&logoColor=FFF000" alt="DuckDB"> <img src="https://img.shields.io/badge/MCP-1b1714?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP">
 </p>
 
-<p align="center"><b>I build tools that do the boring part of your job for you, and I prove they work.</b><br>47 public projects, 42 with a live demo you can try in your browser. Every one is tested on each push, and most are scored against data where the right answer is known.</p>
+<p align="center"><b>I build tools that do the boring part of your job for you, and I prove they work.</b><br>48 public projects, 43 with a live demo you can try in your browser. Every one is tested on each push, and most are scored against data where the right answer is known.</p>
 
 <a id="top"></a>
 
@@ -34,7 +34,7 @@
 | [How I work](#how-i-work) | [By industry](#real-estate-and-appraisal) | [How I test](#how-i-test) | [Book a free call](https://calendly.com/chasebuilds-ky/30min) |
 | [FAQ](#faq) | [By skill](#by-skill) | [Tech stack](#tech-stack) | [Website](https://chasebuilds.github.io) |
 | [Now building](#now-building) | [Live demos](#live-demos) | [Releases](https://github.com/chasebuilds?tab=repositories) | [Reuse and license](#reuse-and-license) |
-| | [All 47 projects](#all-projects) | | [Privacy](#privacy) |
+| | [All 48 projects](#all-projects) | | [Privacy](#privacy) |
 
 </details>
 
@@ -137,6 +137,7 @@ For small businesses that want to know their website and files are safe, without
 
 | Project | What it does for you | Demo |
 |---|---|---|
+| [pii-redactor](https://github.com/chasebuilds/pii-redactor) | Hides names, emails, phone, SSN and card numbers in files before you share them, with a review sheet. Runs offline. | [Open](https://chasebuilds.github.io/pii-redactor/) |
 | [site-security-check](https://github.com/chasebuilds/site-security-check) | A gentle, passive checkup of your own website, with a plain-English grade and fixes in order. | [Open](https://chasebuilds.github.io/site-security-check/) |
 | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | Ask questions about your PDFs with AI that runs on your own computer, so documents never leave the office. | |
 | [table-export-extension](https://github.com/chasebuilds/table-export-extension) | Export any web table to Excel. No data leaves the browser. | [Open](https://chasebuilds.github.io/table-export-extension/) |
@@ -156,7 +157,7 @@ For anyone who wants the repetitive part of a job done by a script or a private 
 | [sheets-automations](https://github.com/chasebuilds/sheets-automations) | Spreadsheets that email, invoice and remind on their own. | [Open](https://chasebuilds.github.io/sheets-automations/) |
 | [self-healing-agents](https://github.com/chasebuilds/self-healing-agents) | Agents that check whether their own output still reaches a person. | |
 
-More: [faceless-video-pipeline](https://github.com/chasebuilds/faceless-video-pipeline) · [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api)
+More: [pii-redactor](https://github.com/chasebuilds/pii-redactor) · [faceless-video-pipeline](https://github.com/chasebuilds/faceless-video-pipeline) · [appointment-booking-api](https://github.com/chasebuilds/appointment-booking-api)
 
 <sub>[Back to top](#top)</sub>
 
@@ -248,6 +249,7 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 #### Security checkups
 
 - **[site-security-check](https://github.com/chasebuilds/site-security-check)** · A passive checkup of your own website, written up in plain English with a grade and fixes in order. [Live demo](https://chasebuilds.github.io/site-security-check/).
+- **[pii-redactor](https://github.com/chasebuilds/pii-redactor)** · Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline. 95.2% precision, 79.3% recall on 11,350 planted values; 8,997 of 8,997 targeted forms found. [Live demo](https://chasebuilds.github.io/pii-redactor/).
 
 #### AI with local models
 
@@ -259,7 +261,7 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 ### Live demos
 
 Every project with a demo you can open right now:
-[3D land](https://chasebuilds.github.io/land-feasibility-3d/) · [window hero](https://chasebuilds.github.io/window-hero/) · [dither pond](https://chasebuilds.github.io/dither-pond/) · [notebook shelf](https://chasebuilds.github.io/notebook-shelf/) · [liquid logo](https://chasebuilds.github.io/liquid-logo-studio/) · [cursor fluid](https://chasebuilds.github.io/cursor-fluid/) · [3D showcase](https://chasebuilds.github.io/r3f-showcase/) · [motion gallery](https://chasebuilds.github.io/motion-design-gallery/) · [local business site](https://chasebuilds.github.io/local-business-site/) · [listing kit](https://chasebuilds.github.io/listing-kit/) · [net sheet and CMA](https://chasebuilds.github.io/seller-net-sheet-cma/) · [showing routes](https://chasebuilds.github.io/showing-route-planner/) · [comps grid](https://chasebuilds.github.io/comparable-sales-grid/) · [home value model](https://chasebuilds.github.io/home-value-model/) · [income approach](https://chasebuilds.github.io/income-approach-valuation/) · [cost approach](https://chasebuilds.github.io/cost-approach-calculator/) · [ratio study](https://chasebuilds.github.io/assessment-ratio-study/) · [market trends](https://chasebuilds.github.io/housing-market-trends/) · [listing normalizer](https://chasebuilds.github.io/listing-data-normalizer/) · [valuation report](https://chasebuilds.github.io/valuation-report-builder/) · [field service app](https://chasebuilds.github.io/field-service-pwa/) · [analytics dashboard](https://chasebuilds.github.io/react-analytics-dashboard/) · [reporting system](https://chasebuilds.github.io/automated-reporting-system/) · [PC build planner](https://chasebuilds.github.io/pc-build-planner/) · [security check](https://chasebuilds.github.io/site-security-check/) · [county study](https://chasebuilds.github.io/small-business-county-study/) · [WebGPU kit](https://chasebuilds.github.io/webgpu-agent-kit/) · [spreadsheet cleaner](https://chasebuilds.github.io/excel-cleaner-pro/) · [spreadsheet diff](https://chasebuilds.github.io/spreadsheet-diff/) · [address cleaner](https://chasebuilds.github.io/address-normalizer/) · [combine and split files](https://chasebuilds.github.io/csv-combine-split/) · [PDF to Excel](https://chasebuilds.github.io/pdf-to-excel/) · [PDF tables](https://chasebuilds.github.io/pdf-table-extractor/) · [formula auditor](https://chasebuilds.github.io/excel-formula-auditor/) · [transaction categorizer](https://chasebuilds.github.io/transaction-categorizer/) · [product matcher](https://chasebuilds.github.io/product-matcher/) · [JSON to tables](https://chasebuilds.github.io/json-to-tables/) · [list merger](https://chasebuilds.github.io/data-merger/) · [data checks](https://chasebuilds.github.io/data-quality-checks/) · [Excel to SQL](https://chasebuilds.github.io/excel-to-sql/) · [lead list checks](https://chasebuilds.github.io/lead-list-qa/) · [Sheets automations](https://chasebuilds.github.io/sheets-automations/) · [booking](https://chasebuilds.github.io/appointment-booking-api/) · [table export](https://chasebuilds.github.io/table-export-extension/)
+[3D land](https://chasebuilds.github.io/land-feasibility-3d/) · [window hero](https://chasebuilds.github.io/window-hero/) · [dither pond](https://chasebuilds.github.io/dither-pond/) · [notebook shelf](https://chasebuilds.github.io/notebook-shelf/) · [liquid logo](https://chasebuilds.github.io/liquid-logo-studio/) · [cursor fluid](https://chasebuilds.github.io/cursor-fluid/) · [3D showcase](https://chasebuilds.github.io/r3f-showcase/) · [motion gallery](https://chasebuilds.github.io/motion-design-gallery/) · [local business site](https://chasebuilds.github.io/local-business-site/) · [listing kit](https://chasebuilds.github.io/listing-kit/) · [net sheet and CMA](https://chasebuilds.github.io/seller-net-sheet-cma/) · [showing routes](https://chasebuilds.github.io/showing-route-planner/) · [comps grid](https://chasebuilds.github.io/comparable-sales-grid/) · [home value model](https://chasebuilds.github.io/home-value-model/) · [income approach](https://chasebuilds.github.io/income-approach-valuation/) · [cost approach](https://chasebuilds.github.io/cost-approach-calculator/) · [ratio study](https://chasebuilds.github.io/assessment-ratio-study/) · [market trends](https://chasebuilds.github.io/housing-market-trends/) · [listing normalizer](https://chasebuilds.github.io/listing-data-normalizer/) · [valuation report](https://chasebuilds.github.io/valuation-report-builder/) · [field service app](https://chasebuilds.github.io/field-service-pwa/) · [analytics dashboard](https://chasebuilds.github.io/react-analytics-dashboard/) · [reporting system](https://chasebuilds.github.io/automated-reporting-system/) · [PC build planner](https://chasebuilds.github.io/pc-build-planner/) · [security check](https://chasebuilds.github.io/site-security-check/) · [county study](https://chasebuilds.github.io/small-business-county-study/) · [WebGPU kit](https://chasebuilds.github.io/webgpu-agent-kit/) · [PII redactor](https://chasebuilds.github.io/pii-redactor/) · [spreadsheet cleaner](https://chasebuilds.github.io/excel-cleaner-pro/) · [spreadsheet diff](https://chasebuilds.github.io/spreadsheet-diff/) · [address cleaner](https://chasebuilds.github.io/address-normalizer/) · [combine and split files](https://chasebuilds.github.io/csv-combine-split/) · [PDF to Excel](https://chasebuilds.github.io/pdf-to-excel/) · [PDF tables](https://chasebuilds.github.io/pdf-table-extractor/) · [formula auditor](https://chasebuilds.github.io/excel-formula-auditor/) · [transaction categorizer](https://chasebuilds.github.io/transaction-categorizer/) · [product matcher](https://chasebuilds.github.io/product-matcher/) · [JSON to tables](https://chasebuilds.github.io/json-to-tables/) · [list merger](https://chasebuilds.github.io/data-merger/) · [data checks](https://chasebuilds.github.io/data-quality-checks/) · [Excel to SQL](https://chasebuilds.github.io/excel-to-sql/) · [lead list checks](https://chasebuilds.github.io/lead-list-qa/) · [Sheets automations](https://chasebuilds.github.io/sheets-automations/) · [booking](https://chasebuilds.github.io/appointment-booking-api/) · [table export](https://chasebuilds.github.io/table-export-extension/)
 
 ### How I work
 
@@ -318,7 +320,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 
 <!--ALL-->
 <details>
-<summary><b>All 47 projects</b> (click to open)</summary>
+<summary><b>All 48 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -368,6 +370,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 | [sheets-automations](https://github.com/chasebuilds/sheets-automations) | APIs and automation | Five Google Sheets automations: form cleanup, summary emails, invoice PDFs, overdue reminders, low-stock alerts | [Live demo](https://chasebuilds.github.io/sheets-automations/) |
 | [web-data-extractor](https://github.com/chasebuilds/web-data-extractor) | APIs and automation | Public catalog pages to a checked spreadsheet, only where robots.txt allows | 360 of 360 field values correct on the test site |
 | [site-security-check](https://github.com/chasebuilds/site-security-check) | Security checkups | A passive checkup of your own website, written up in plain English with a grade and fixes in order | [Live demo](https://chasebuilds.github.io/site-security-check/) |
+| [pii-redactor](https://github.com/chasebuilds/pii-redactor) | Security checkups | Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline | 95.2% precision, 79.3% recall on 11,350 planted values; 8,997 of 8,997 targeted forms found. [Live demo](https://chasebuilds.github.io/pii-redactor/) |
 | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | AI with local models | Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private | Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused |
 
 </details>
