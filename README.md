@@ -249,7 +249,7 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 #### Security checkups
 
 - **[site-security-check](https://github.com/chasebuilds/site-security-check)** · A passive checkup of your own website, written up in plain English with a grade and fixes in order. [Live demo](https://chasebuilds.github.io/site-security-check/).
-- **[pii-redactor](https://github.com/chasebuilds/pii-redactor)** · Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline. 95.2% precision, 79.3% recall on 11,350 planted values; 8,997 of 8,997 targeted forms found. [Live demo](https://chasebuilds.github.io/pii-redactor/).
+- **[pii-redactor](https://github.com/chasebuilds/pii-redactor)** · Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline. 98.7% precision, 82.0% recall on 11,350 planted values; every targeted format found. [Live demo](https://chasebuilds.github.io/pii-redactor/).
 
 #### AI with local models
 
@@ -370,7 +370,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 | [sheets-automations](https://github.com/chasebuilds/sheets-automations) | APIs and automation | Five Google Sheets automations: form cleanup, summary emails, invoice PDFs, overdue reminders, low-stock alerts | [Live demo](https://chasebuilds.github.io/sheets-automations/) |
 | [web-data-extractor](https://github.com/chasebuilds/web-data-extractor) | APIs and automation | Public catalog pages to a checked spreadsheet, only where robots.txt allows | 360 of 360 field values correct on the test site |
 | [site-security-check](https://github.com/chasebuilds/site-security-check) | Security checkups | A passive checkup of your own website, written up in plain English with a grade and fixes in order | [Live demo](https://chasebuilds.github.io/site-security-check/) |
-| [pii-redactor](https://github.com/chasebuilds/pii-redactor) | Security checkups | Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline | 95.2% precision, 79.3% recall on 11,350 planted values; 8,997 of 8,997 targeted forms found. [Live demo](https://chasebuilds.github.io/pii-redactor/) |
+| [pii-redactor](https://github.com/chasebuilds/pii-redactor) | Security checkups | Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline | 98.7% precision, 82.0% recall on 11,350 planted values; every targeted format found. [Live demo](https://chasebuilds.github.io/pii-redactor/) |
 | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | AI with local models | Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private | Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused |
 
 </details>
