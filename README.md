@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/Local%20AI-1b1714?style=flat-square&logo=ollama&logoColor=white" alt="Local AI"> <img src="https://img.shields.io/badge/Hugging%20Face-1b1714?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"> <img src="https://img.shields.io/badge/transformers.js-1b1714?style=flat-square&logo=javascript&logoColor=white" alt="transformers.js"> <img src="https://img.shields.io/badge/Python-1b1714?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-1b1714?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/pandas-1b1714?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/scikit--learn-1b1714?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/Tesseract%20OCR-1b1714?style=flat-square" alt="Tesseract OCR"> <img src="https://img.shields.io/badge/MCP-1b1714?style=flat-square" alt="MCP"> <img src="https://img.shields.io/badge/React-1b1714?style=flat-square&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/Three.js-1b1714?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/WebGPU-1b1714?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU">
 </p>
 
-<p align="center"><b>Private AI and data tools that run on your own computer.</b><br>Search a spreadsheet in plain English, turn receipt photos into a spreadsheet, ask questions about your PDFs and get the page, mask personal info. Nothing gets uploaded.<br>51 public projects, 47 with a live demo, each tested against data where the right answer is known.</p>
+<p align="center"><b>Private AI and data tools that run on your own computer.</b><br>Search a spreadsheet in plain English, turn receipt photos into a spreadsheet, ask questions about your PDFs and get the page, mask personal info. Nothing gets uploaded.<br>52 public projects, 48 with a live demo, each tested against data where the right answer is known.</p>
 
 <a id="top"></a>
 
@@ -34,7 +34,7 @@
 | [How I work](#how-i-work) | [By industry](#real-estate-and-appraisal) | [How I test](#how-i-test) | [Book a free call](https://calendly.com/chasebuilds-ky/30min) |
 | [FAQ](#faq) | [By skill](#by-skill) | [Tech stack](#tech-stack) | [Website](https://chasebuilds.github.io) |
 | [Now building](#now-building) | [Live demos](#live-demos) | [Releases](https://github.com/chasebuilds?tab=repositories) | [Reuse and license](#reuse-and-license) |
-| | [All 51 projects](#all-projects) | | [Privacy](#privacy) |
+| | [All 52 projects](#all-projects) | | [Privacy](#privacy) |
 
 </details>
 
@@ -246,6 +246,7 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 
 - **[site-security-check](https://github.com/chasebuilds/site-security-check)** · A passive checkup of your own website, written up in plain English with a grade and fixes in order. [Live demo](https://chasebuilds.github.io/site-security-check/).
 - **[pii-redactor](https://github.com/chasebuilds/pii-redactor)** · Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline. 98.7% precision, 82.0% recall on 11,350 planted values; every targeted format found. [Live demo](https://chasebuilds.github.io/pii-redactor/).
+- **[app-security-library](https://github.com/chasebuilds/app-security-library)** · 20 real attacks on web apps (JWT confusion, RLS views, prototype pollution and more): the public incident, how to tell if it applies, the fix with code, and a prompt to check your own app. 20 of 20 entries cite a public source, checked on every push. [Live demo](https://chasebuilds.github.io/app-security-library/).
 
 #### AI with local models
 
@@ -318,7 +319,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 
 <!--ALL-->
 <details>
-<summary><b>All 53 projects</b> (click to open)</summary>
+<summary><b>All 54 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -372,6 +373,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 | [web-data-extractor](https://github.com/chasebuilds/web-data-extractor) | APIs and automation | Public catalog pages to a checked spreadsheet, only where robots.txt allows | 360 of 360 field values correct on the test site |
 | [site-security-check](https://github.com/chasebuilds/site-security-check) | Security checkups | A passive checkup of your own website, written up in plain English with a grade and fixes in order | [Live demo](https://chasebuilds.github.io/site-security-check/) |
 | [pii-redactor](https://github.com/chasebuilds/pii-redactor) | Security checkups | Finds and masks names, emails, phones, SSNs, card numbers, addresses and birth dates in CSV, Excel, text and PDF files, with a review sheet. Runs offline | 98.7% precision, 82.0% recall on 11,350 planted values; every targeted format found. [Live demo](https://chasebuilds.github.io/pii-redactor/) |
+| [app-security-library](https://github.com/chasebuilds/app-security-library) | Security checkups | 20 real attacks on web apps (JWT confusion, RLS views, prototype pollution and more): the public incident, how to tell if it applies, the fix with code, and a prompt to check your own app | 20 of 20 entries cite a public source, checked on every push. [Live demo](https://chasebuilds.github.io/app-security-library/) |
 | [pdf-qa-local](https://github.com/chasebuilds/pdf-qa-local) | AI with local models | Ask questions about a folder of PDFs and get answers that cite the file and page. Runs on your own computer, so documents stay private | Right page cited on 29 of 30 test questions, 12 of 12 unanswerable questions refused, in the browser too. [Live demo](https://chasebuilds.github.io/pdf-qa-local/) |
 | [ask-your-spreadsheet](https://github.com/chasebuilds/ask-your-spreadsheet) | AI with local models | Search a CSV or Excel sheet in plain English, like "customers in Pikeville who owe over $500", with a small AI model that runs in your browser. The file is never uploaded | Right rows in the top 5 on 87.1% of 45 labeled questions (keyword search alone: 43.0%). [Live demo](https://chasebuilds.github.io/ask-your-spreadsheet/) |
 | [receipt-reader-ai](https://github.com/chasebuilds/receipt-reader-ai) | AI with local models | Reads receipt and invoice photos in your browser and fills a spreadsheet: vendor, date, total, tax and category, with CSV and Excel export. Nothing is uploaded | Total within 1 cent on 60 of 60 held-out receipts; all five fields right on 58 of 60. [Live demo](https://chasebuilds.github.io/receipt-reader-ai/) |
