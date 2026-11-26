@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/Local%20AI-1b1714?style=flat-square&logo=ollama&logoColor=white" alt="Local AI"> <img src="https://img.shields.io/badge/Hugging%20Face-1b1714?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"> <img src="https://img.shields.io/badge/transformers.js-1b1714?style=flat-square&logo=javascript&logoColor=white" alt="transformers.js"> <img src="https://img.shields.io/badge/Python-1b1714?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-1b1714?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/pandas-1b1714?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/scikit--learn-1b1714?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/Tesseract%20OCR-1b1714?style=flat-square" alt="Tesseract OCR"> <img src="https://img.shields.io/badge/MCP-1b1714?style=flat-square" alt="MCP"> <img src="https://img.shields.io/badge/React-1b1714?style=flat-square&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/Three.js-1b1714?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/WebGPU-1b1714?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU">
 </p>
 
-<p align="center"><b>Private AI and data tools that run on your own computer.</b><br>Search a spreadsheet in plain English, turn receipt photos into a spreadsheet, ask questions about your PDFs and get the page, mask personal info. Nothing gets uploaded.<br>53 public projects, 49 with a live demo, each tested against data where the right answer is known.</p>
+<p align="center"><b>Private AI and data tools that run on your own computer.</b><br>Search a spreadsheet in plain English, turn receipt photos into a spreadsheet, ask questions about your PDFs and get the page, mask personal info. Nothing gets uploaded.<br>55 public projects, 51 with a live demo, each tested against data where the right answer is known.</p>
 
 <a id="top"></a>
 
@@ -34,7 +34,7 @@
 | [How I work](#how-i-work) | [By industry](#real-estate-and-appraisal) | [How I test](#how-i-test) | [Book a free call](https://calendly.com/chasebuilds-ky/30min) |
 | [FAQ](#faq) | [By skill](#by-skill) | [Tech stack](#tech-stack) | [Website](https://chasebuilds.github.io) |
 | [Now building](#now-building) | [Live demos](#live-demos) | [Releases](https://github.com/chasebuilds?tab=repositories) | [Reuse and license](#reuse-and-license) |
-| | [All 53 projects](#all-projects) | | [Privacy](#privacy) |
+| | [All 55 projects](#all-projects) | | [Privacy](#privacy) |
 
 </details>
 
@@ -225,7 +225,7 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 - **[motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery)** · Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off. [Live demo](https://chasebuilds.github.io/motion-design-gallery/).
 - **[r3f-showcase](https://github.com/chasebuilds/r3f-showcase)** · Four interactive 3D website pieces in React Three Fiber: product configurator, scroll-driven hero, gallery wall and a shader planet. Lighthouse mobile score 100 on the overview, 76 to 90 on the 3D pages. [Live demo](https://chasebuilds.github.io/r3f-showcase/).
 - **[liquid-logo-studio](https://github.com/chasebuilds/liquid-logo-studio)** · Any SVG or PNG logo to animated liquid chrome, gold or holographic metal, saved as PNG or WebM or embedded with one script. Embed script is 8,000 bytes gzipped. [Live demo](https://chasebuilds.github.io/liquid-logo-studio/).
-- Plus 8 more in the full list below.
+- Plus 9 more in the full list below.
 
 #### Apps and dashboards
 
@@ -319,7 +319,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 
 <!--ALL-->
 <details>
-<summary><b>All 55 projects</b> (click to open)</summary>
+<summary><b>All 56 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -361,7 +361,8 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 | [notebook-shelf](https://github.com/chasebuilds/notebook-shelf) | Websites and design | A shelf of notebooks that open in 3D and flip through their pages by drag, swipe or arrow keys, from a JSON list. Plain JS and CSS, no dependencies | 11,596 bytes gzipped; 665 fps scrubbing with the CPU slowed 4x. [Live demo](https://chasebuilds.github.io/notebook-shelf/) |
 | [ux-motion-principles](https://github.com/chasebuilds/ux-motion-principles) | Websites and design | 20 UX and animation principles (easing, anticipation, Fitts's and Hick's laws and more) as live before and afters you can replay, with the CSS to copy | [Live demo](https://chasebuilds.github.io/ux-motion-principles/) |
 | [psychology-principles](https://github.com/chasebuilds/psychology-principles) | Websites and design | 20 psychology principles behind apps and websites (variable reward, anchoring, social proof and more), each with a live example you can tap and a line on how to use it honestly | 20 of 20 principles ship with a working demo, checked on every push. [Live demo](https://chasebuilds.github.io/psychology-principles/) |
-| [vgpu](https://github.com/chasebuilds/vgpu) | Websites and design | Our fork of Vercel Labs' vgpu WebGPU library, plus six hero backgrounds we made with it (aurora, liquid glass, embers, prism, and the live backdrop on chasebuilds.github.io) | [Live demo](https://chasebuilds.github.io/vgpu/chasebuilds/effects/) |
+| [webgpu-hero-effects](https://github.com/chasebuilds/webgpu-hero-effects) | Websites and design | Six live WebGPU hero backgrounds (aurora, liquid glass, embers, prism and the live backdrop on this site) with a one-line loader, touch support and a still fallback | 6 of 6 shaders checked on every push; draws only while on screen. [Live demo](https://chasebuilds.github.io/webgpu-hero-effects/) |
+| [rail-store](https://github.com/chasebuilds/rail-store) | Websites and design | A clothing drop shop on a hanging rail: pieces sway and swing, open with sizes and stock, then reserve through a bag drawer. Drawn garments, works by touch | [Live demo](https://chasebuilds.github.io/rail-store/) |
 | [pixelfx](https://github.com/chasebuilds/pixelfx) | Websites and design | Our fork of Patch's pixelfx: 244 pixel art effects made from code, for browser games and playful sites, with a live gallery | [Live demo](https://chasebuilds.github.io/pixelfx/) |
 | [react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard) | Apps and dashboards | Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
 | [pc-build-planner](https://github.com/chasebuilds/pc-build-planner) | Apps and dashboards | Pick a budget and use case, get a PC parts list where every part fits, with the reason for each pick | [Live demo](https://chasebuilds.github.io/pc-build-planner/) |
