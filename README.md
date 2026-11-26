@@ -12,16 +12,16 @@
 
 <table>
 <tr>
+<td width="25%" valign="top"><a href="#ai-and-automation"><b>🤖 AI and automation</b></a><br><sub>local AI, scripts, APIs</sub></td>
 <td width="25%" valign="top"><a href="#real-estate-and-appraisal"><b>🏠 Real estate and appraisal</b></a><br><sub>agents, appraisers, assessors</sub></td>
 <td width="25%" valign="top"><a href="#small-business-and-local-services"><b>🛠️ Small business</b></a><br><sub>shops, trades, restaurants</sub></td>
 <td width="25%" valign="top"><a href="#office-bookkeeping-and-admin"><b>📑 Office and bookkeeping</b></a><br><sub>spreadsheets, PDFs, invoices</sub></td>
-<td width="25%" valign="top"><a href="#construction-and-land"><b>⛰️ Construction and land</b></a><br><sub>developers, builders, surveyors</sub></td>
 </tr>
 <tr>
+<td width="25%" valign="top"><a href="#construction-and-land"><b>⛰️ Construction and land</b></a><br><sub>developers, builders, surveyors</sub></td>
 <td width="25%" valign="top"><a href="#marketing-and-creative"><b>🎨 Marketing and creative</b></a><br><sub>brands, agencies, landing pages</sub></td>
 <td width="25%" valign="top"><a href="#data-and-analytics"><b>📊 Data and analytics</b></a><br><sub>reports, dashboards, data quality</sub></td>
 <td width="25%" valign="top"><a href="#security-and-it"><b>🔒 Security and IT</b></a><br><sub>website checkups, private tools</sub></td>
-<td width="25%" valign="top"><a href="#ai-and-automation"><b>🤖 AI and automation</b></a><br><sub>local AI, scripts, APIs</sub></td>
 </tr>
 </table>
 
