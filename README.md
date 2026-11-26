@@ -225,7 +225,7 @@ Scored by a script against data where the right answer is known. Each repo's `BE
 - **[motion-design-gallery](https://github.com/chasebuilds/motion-design-gallery)** · Eleven copy-paste web animations in plain HTML, CSS and JavaScript, safe for visitors who turn motion off. [Live demo](https://chasebuilds.github.io/motion-design-gallery/).
 - **[r3f-showcase](https://github.com/chasebuilds/r3f-showcase)** · Four interactive 3D website pieces in React Three Fiber: product configurator, scroll-driven hero, gallery wall and a shader planet. Lighthouse mobile score 100 on the overview, 76 to 90 on the 3D pages. [Live demo](https://chasebuilds.github.io/r3f-showcase/).
 - **[liquid-logo-studio](https://github.com/chasebuilds/liquid-logo-studio)** · Any SVG or PNG logo to animated liquid chrome, gold or holographic metal, saved as PNG or WebM or embedded with one script. Embed script is 8,000 bytes gzipped. [Live demo](https://chasebuilds.github.io/liquid-logo-studio/).
-- Plus 4 more in the full list below.
+- Plus 6 more in the full list below.
 
 #### Apps and dashboards
 
@@ -318,7 +318,7 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 
 <!--ALL-->
 <details>
-<summary><b>All 50 projects</b> (click to open)</summary>
+<summary><b>All 52 projects</b> (click to open)</summary>
 
 | Project | Group | What it does | Result or demo |
 |---|---|---|---|
@@ -358,6 +358,8 @@ A notebook-style redesign of the portfolio site, and more options for the 3D sce
 | [dither-pond](https://github.com/chasebuilds/dither-pond) | Websites and design | A three.js pond scene through a Bayer and blue-noise dither pass: pick and mix a boat, ducks, heron, deer, cyclist, bats or fireflies, set wind and chop, and slide from dawn to night | 38 fps with no GPU at all (software rendering, 1280 x 720). [Live demo](https://chasebuilds.github.io/dither-pond/) |
 | [window-hero](https://github.com/chasebuilds/window-hero) | Websites and design | A landing-page hero that turns the screen into a window: a 3D room that shifts as you move your head, tracked on your own device, with mouse, tilt and reduced-motion fallbacks | Face tracker downloads only after opt-in; 15.7 KB of its own code on page load. [Live demo](https://chasebuilds.github.io/window-hero/) |
 | [notebook-shelf](https://github.com/chasebuilds/notebook-shelf) | Websites and design | A shelf of notebooks that open in 3D and flip through their pages by drag, swipe or arrow keys, from a JSON list. Plain JS and CSS, no dependencies | 11,596 bytes gzipped; 665 fps scrubbing with the CPU slowed 4x. [Live demo](https://chasebuilds.github.io/notebook-shelf/) |
+| [vgpu](https://github.com/chasebuilds/vgpu) | Websites and design | Our fork of Vercel Labs' vgpu WebGPU library, plus six hero backgrounds we made with it (aurora, liquid glass, embers, prism, and the live backdrop on chasebuilds.github.io) | [Live demo](https://chasebuilds.github.io/vgpu/chasebuilds/effects/) |
+| [pixelfx](https://github.com/chasebuilds/pixelfx) | Websites and design | Our fork of Patch's pixelfx: 244 pixel art effects made from code, for browser games and playful sites, with a live gallery | [Live demo](https://chasebuilds.github.io/pixelfx/) |
 | [react-analytics-dashboard](https://github.com/chasebuilds/react-analytics-dashboard) | Apps and dashboards | Sales and operations dashboard in React and TypeScript: key figures, trend charts, filters and CSV export | [Live demo](https://chasebuilds.github.io/react-analytics-dashboard/) |
 | [pc-build-planner](https://github.com/chasebuilds/pc-build-planner) | Apps and dashboards | Pick a budget and use case, get a PC parts list where every part fits, with the reason for each pick | [Live demo](https://chasebuilds.github.io/pc-build-planner/) |
 | [field-service-pwa](https://github.com/chasebuilds/field-service-pwa) | Apps and dashboards | Phone app for trades crews: job tickets, checklists, photos, parts, time, customer signature and invoice. Works offline | [Live demo](https://chasebuilds.github.io/field-service-pwa/) |
